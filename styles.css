@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#headerTop {
+    color: white;
+    background-color: darkblue;
+    padding: 5px;
+}
+
+#headerTop>div {
+    display: inline-block;
+}
+
+#headerTop>div>span {
+    margin-right: 0.5rem;
+    
+}
+
+span:nth-of-type(1) {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#headerBottom {
+    border-bottom: 1px solid gray; 
+    padding: 5px;
+}
+
+#headerBottom>div {
+    display: inline-block;
+}
+
+.Compose {
+    color: white;
+    background-color: darkblue;
+    font-weight: bold;
+    border-radius: 10%;
+    padding: 5px;
+    margin-right: 0.85rem;
+    cursor: pointer;
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    margin-right: 0.7rem;
+}
+
+.active {
+    font-weight: bolder;
+    border-bottom: 2px solid;
+    border-color: darkblue;
+}
+
+#emails>.email>div {
+    display: inline-block;
+}
+
+.email-check {
+    padding: 5px 5px 5px 20px;
+    width: 8%;
+}
+
+.email {
+    border-bottom: 2px solid lightgrey;
+}
+
+.email-name {
+    padding: 5px 5px 5px 20px;
+    width: 35%;
+
+}
+
+.email-subject {
+    padding: 5px 5px 5px 20px;
+    width: 35%;
+}
+.email-date {
+    padding: 5px 5px 5px 20px;
+    width: 8%;
+}
+
+.email-size {
+    padding: 5px 5px 5px 20px;
+    width: 8%;
+}
+
+.email:nth-of-type(1) {
+    font-weight: bold;
+}
+
